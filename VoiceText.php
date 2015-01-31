@@ -185,7 +185,7 @@ class VoiceText
      * @var array
      */
     private $options = array(
-        self::OPTION_API_KEY          => 'DUMYY KEY',
+        self::OPTION_API_KEY          => 'DUMMY KEY',
         self::OPTION_API_URL          => 'https://api.voicetext.jp/v1/tts',
         self::OPTION_CONNECTTIMEOUT   => 30,
         self::OPTION_TIMEOUT          => 30,
