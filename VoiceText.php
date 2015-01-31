@@ -237,6 +237,7 @@ class VoiceText
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->options[self::OPTION_CONNECTTIMEOUT]);
         curl_setopt($ch, CURLOPT_TIMEOUT, $this->options[self::OPTION_TIMEOUT]);
         curl_setopt($ch, CURLOPT_FILE, $fp); 
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
         curl_exec($ch);
 
